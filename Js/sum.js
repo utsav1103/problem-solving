@@ -7,4 +7,5 @@ function sum(a,b) {
 
 sum(3,5);
 sum(4,2);
-sum(5,1)
+sum(5,1);
+sum(43,66);
