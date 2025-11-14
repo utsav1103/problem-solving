@@ -5,8 +5,8 @@ console.log("Hello world")
 
 function area (l,b){
     //making is non negative
-    if(l,b < 0) {
-        throw new Error("length and breath can not be negative")
+    if(l,b <= 0) {
+        throw new Error("length and breath can not be Negative or Zero")
     }else{
          const areaofRectangle = l*b;
     console.log("Area of Reactangle is -" ,areaofRectangle)
@@ -14,6 +14,6 @@ function area (l,b){
     }
    }
 
-area(4,4)
+area(4,0)
 area(22,473)
 area(13,-2) //throwing new error 
