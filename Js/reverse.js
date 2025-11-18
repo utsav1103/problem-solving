@@ -12,6 +12,7 @@
 //  const originalStr = "Mikasa";
 //  const reversedStr = reverseString(originalStr);
 //  console.log(reversedStr);
+//    console.log(typeof str)
 
 
  //another method
@@ -28,3 +29,5 @@
  console.log(reverse3)
  const reverse4 = str4.split('').reverse().join('');
  console.log(reverse4)
+
+ console.log(typeof str1,typeof str2,typeof str3,typeof str4)
