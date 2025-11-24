@@ -8,3 +8,5 @@ function table(num){
      
 }
 console.log(table(5))
+console.log(table(51))
+console.log(table(13))
